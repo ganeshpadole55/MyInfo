@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>QRCodeGenerator.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>45BF74A71ECAD80C0093CFF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>45BF74BB1ECAD80D0093CFF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>45BF74C61ECAD80D0093CFF4</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

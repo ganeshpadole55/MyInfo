@@ -1,0 +1,33 @@
+PODS:
+  - DropDown (2)
+  - Locksmith (3.0.0)
+  - MGSwipeTableCell (1.5.6)
+  - QRCoder (0.3.0)
+  - RNCryptor (5.0.1)
+  - SideMenu (2.3.2)
+  - SkyFloatingLabelTextField (3.1.0)
+  - STZPopupView (1.2.0)
+
+DEPENDENCIES:
+  - DropDown
+  - Locksmith
+  - MGSwipeTableCell
+  - QRCoder
+  - RNCryptor (~> 5.0)
+  - SideMenu
+  - SkyFloatingLabelTextField (~> 3.0)
+  - STZPopupView
+
+SPEC CHECKSUMS:
+  DropDown: 744784d9c9aa505100e942c16acd05430cbb2f0a
+  Locksmith: 310b4cc5031af5728bf4db5d4de547a5100c6a3b
+  MGSwipeTableCell: 616700eb0ffd1c611ba909066cb7fd739790a0a7
+  QRCoder: 92f20e157132630da4da05e9a69cdbe128a4cd08
+  RNCryptor: 2e352a488779d1a9184ab629be22a7c5bc84acb5
+  SideMenu: 3fa07dd05d4bade2b6f9889fb1877e312e1ba319
+  SkyFloatingLabelTextField: 26a92ad407044dd5a7c3e4e348738ff0991514fe
+  STZPopupView: 7e878b4d1baedd5df339067d305ab0120dc6da62
+
+PODFILE CHECKSUM: 5973ffb7f01c270de6054f09558ca60f712617d5
+
+COCOAPODS: 1.2.1

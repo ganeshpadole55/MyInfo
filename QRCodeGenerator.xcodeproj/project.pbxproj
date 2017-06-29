@@ -1,0 +1,1018 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4524F4C41EEBB3A700144BDE /* QRCODE.db in Resources */ = {isa = PBXBuildFile; fileRef = 4524F4C31EEBB3A700144BDE /* QRCODE.db */; };
+		4539A7A31EF8FD71008FD1C4 /* LockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539A7A21EF8FD71008FD1C4 /* LockViewController.swift */; };
+		4539A7A61EF8FE5A008FD1C4 /* CreatePasswordLockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539A7A51EF8FE5A008FD1C4 /* CreatePasswordLockViewController.swift */; };
+		4539A7A91EF90C76008FD1C4 /* CodeInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4539A7A81EF90C76008FD1C4 /* CodeInputView.swift */; };
+		455287A31EF4FCCE00C8C0B1 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 455287A21EF4FCCE00C8C0B1 /* MBProgressHUD.m */; };
+		4553FEED1EE67BB7003C2B0A /* PITouchIDManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4553FEEB1EE67BB7003C2B0A /* PITouchIDManager.m */; };
+		4553FEEE1EE67BB7003C2B0A /* PITouchIDManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4553FEEC1EE67BB7003C2B0A /* PITouchIDManager.swift */; };
+		4553FEF01EE67C12003C2B0A /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4553FEEF1EE67C12003C2B0A /* LocalAuthentication.framework */; };
+		455E629E1ECF309A00ECDC14 /* MotorVehicleInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E629D1ECF309A00ECDC14 /* MotorVehicleInfo.swift */; };
+		455E62A01ECF30B700ECDC14 /* MedicalInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E629F1ECF30B700ECDC14 /* MedicalInfo.swift */; };
+		455E62A21ECF30CE00ECDC14 /* EmploymentInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 455E62A11ECF30CE00ECDC14 /* EmploymentInfo.swift */; };
+		456A05FF1ECC896100CE94D6 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 456A05F91ECC896100CE94D6 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		456A06001ECC896100CE94D6 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 456A05FB1ECC896100CE94D6 /* FMDatabaseAdditions.m */; };
+		456A06011ECC896100CE94D6 /* fmdb.txt in Resources */ = {isa = PBXBuildFile; fileRef = 456A05FC1ECC896100CE94D6 /* fmdb.txt */; };
+		456A06021ECC896100CE94D6 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 456A05FE1ECC896100CE94D6 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		456A06041ECC899F00CE94D6 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 456A06031ECC899F00CE94D6 /* libsqlite3.0.tbd */; };
+		457CCA3F1ECAEA7300B37D8B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCA3E1ECAEA7300B37D8B /* HomeViewController.swift */; };
+		457CCA411ECAEB0300B37D8B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 457CCA401ECAEB0300B37D8B /* Default.png */; };
+		457CCA431ECAF2F800B37D8B /* ColorConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCA421ECAF2F800B37D8B /* ColorConstants.swift */; };
+		457CCA831ECB175200B37D8B /* MyInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 457CCA821ECB175200B37D8B /* MyInfoViewController.swift */; };
+		45BD76111ECD53FF0059A30A /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD76101ECD53FF0059A30A /* Util.swift */; };
+		45BD76131ECD55C30059A30A /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD76121ECD55C30059A30A /* ModelManager.swift */; };
+		45BD76181ECD665F0059A30A /* personalContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD76171ECD665F0059A30A /* personalContact.swift */; };
+		45BD761A1ECD7CE60059A30A /* CatagoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD76191ECD7CE60059A30A /* CatagoriesTableViewCell.swift */; };
+		45BD761C1ECDB4E30059A30A /* NiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD761B1ECDB4E30059A30A /* NiceButton.swift */; };
+		45BD761E1ECDB83A0059A30A /* MyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45BD761D1ECDB83A0059A30A /* MyCell.xib */; };
+		45BD76201ECDB8680059A30A /* MyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BD761F1ECDB8680059A30A /* MyCell.swift */; };
+		45BF74AC1ECAD80D0093CFF4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF74AB1ECAD80D0093CFF4 /* AppDelegate.swift */; };
+		45BF74B11ECAD80D0093CFF4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BF74AF1ECAD80D0093CFF4 /* Main.storyboard */; };
+		45BF74B31ECAD80D0093CFF4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BF74B21ECAD80D0093CFF4 /* Assets.xcassets */; };
+		45BF74B61ECAD80D0093CFF4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BF74B41ECAD80D0093CFF4 /* LaunchScreen.storyboard */; };
+		45BF74C11ECAD80D0093CFF4 /* QRCodeGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF74C01ECAD80D0093CFF4 /* QRCodeGeneratorTests.swift */; };
+		45BF74CC1ECAD80D0093CFF4 /* QRCodeGeneratorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BF74CB1ECAD80D0093CFF4 /* QRCodeGeneratorUITests.swift */; };
+		45CF3B1A1ED31F3900195F12 /* createMedicalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45CF3B191ED31F3900195F12 /* createMedicalInfoViewController.swift */; };
+		45D2AE4A1ECC17DD006176A8 /* CreateInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D2AE491ECC17DD006176A8 /* CreateInfoViewController.swift */; };
+		45D2AE4D1ECC1814006176A8 /* CatagoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D2AE4C1ECC1814006176A8 /* CatagoriesViewController.swift */; };
+		45D2AE501ECC183C006176A8 /* CreateUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D2AE4F1ECC183C006176A8 /* CreateUserInfoViewController.swift */; };
+		45E0914E1ED2FEE400E7064B /* createVehicleInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E0914D1ED2FEE400E7064B /* createVehicleInfoViewController.swift */; };
+		45E740991ED2AE6900875D34 /* Edit_CatagoriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E740981ED2AE6900875D34 /* Edit_CatagoriesTableViewCell.swift */; };
+		45E7409C1ED2B34900875D34 /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E7409B1ED2B34900875D34 /* ContactInfoViewController.swift */; };
+		45E7409E1ED2C24B00875D34 /* ContactInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E7409D1ED2C24B00875D34 /* ContactInfoTableViewCell.swift */; };
+		45E8803B1ED583A5006DAE21 /* MotorVehicleInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E8803A1ED583A5006DAE21 /* MotorVehicleInfoViewController.swift */; };
+		45E8803E1ED59388006DAE21 /* CreateEmploymentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E8803D1ED59388006DAE21 /* CreateEmploymentInfoViewController.swift */; };
+		45E880411ED593B7006DAE21 /* EmploymentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E880401ED593B7006DAE21 /* EmploymentInfoViewController.swift */; };
+		45E880431ED5A632006DAE21 /* MoveKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E880421ED5A632006DAE21 /* MoveKeyboard.swift */; };
+		45EA904E1ED465B20055E2AF /* MedicalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45EA904D1ED465B20055E2AF /* MedicalInfoViewController.swift */; };
+		45FEF3DA1ED7FCF2002502F6 /* FamilyMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEF3D91ED7FCF1002502F6 /* FamilyMemberTableViewCell.swift */; };
+		45FEF3DD1ED84637002502F6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEF3DC1ED84637002502F6 /* MainViewController.swift */; };
+		45FEF3E01ED847FE002502F6 /* MenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEF3DF1ED847FE002502F6 /* MenuListViewController.swift */; };
+		45FEF3E21ED84A81002502F6 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45FEF3E11ED84A81002502F6 /* MenuTableViewCell.swift */; };
+		BA4E43796B053C43AA821BAF /* Pods_QRCodeGenerator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF97E700D7BC151561FAB910 /* Pods_QRCodeGenerator.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45BF74BD1ECAD80D0093CFF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45BF74A01ECAD80C0093CFF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BF74A71ECAD80C0093CFF4;
+			remoteInfo = QRCodeGenerator;
+		};
+		45BF74C81ECAD80D0093CFF4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45BF74A01ECAD80C0093CFF4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45BF74A71ECAD80C0093CFF4;
+			remoteInfo = QRCodeGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4524F4C31EEBB3A700144BDE /* QRCODE.db */ = {isa = PBXFileReference; lastKnownFileType = file; path = QRCODE.db; sourceTree = "<group>"; };
+		4539A7611EF8ECBD008FD1C4 /* QRCodeGenerator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = QRCodeGenerator.entitlements; sourceTree = "<group>"; };
+		4539A7A21EF8FD71008FD1C4 /* LockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LockViewController.swift; sourceTree = "<group>"; };
+		4539A7A51EF8FE5A008FD1C4 /* CreatePasswordLockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePasswordLockViewController.swift; sourceTree = "<group>"; };
+		4539A7A81EF90C76008FD1C4 /* CodeInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodeInputView.swift; sourceTree = "<group>"; };
+		455287A11EF4FCCE00C8C0B1 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		455287A21EF4FCCE00C8C0B1 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		4553FEEA1EE67BB7003C2B0A /* PITouchIDManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PITouchIDManager.h; sourceTree = "<group>"; };
+		4553FEEB1EE67BB7003C2B0A /* PITouchIDManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PITouchIDManager.m; sourceTree = "<group>"; };
+		4553FEEC1EE67BB7003C2B0A /* PITouchIDManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PITouchIDManager.swift; sourceTree = "<group>"; };
+		4553FEEF1EE67C12003C2B0A /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		455E629D1ECF309A00ECDC14 /* MotorVehicleInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotorVehicleInfo.swift; sourceTree = "<group>"; };
+		455E629F1ECF30B700ECDC14 /* MedicalInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalInfo.swift; sourceTree = "<group>"; };
+		455E62A11ECF30CE00ECDC14 /* EmploymentInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmploymentInfo.swift; sourceTree = "<group>"; };
+		456A05F71ECC896000CE94D6 /* QRCodeGenerator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "QRCodeGenerator-Bridging-Header.h"; sourceTree = "<group>"; };
+		456A05F81ECC896100CE94D6 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		456A05F91ECC896100CE94D6 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		456A05FA1ECC896100CE94D6 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		456A05FB1ECC896100CE94D6 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		456A05FC1ECC896100CE94D6 /* fmdb.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = fmdb.txt; sourceTree = "<group>"; };
+		456A05FD1ECC896100CE94D6 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		456A05FE1ECC896100CE94D6 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		456A06031ECC899F00CE94D6 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		457CCA3E1ECAEA7300B37D8B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		457CCA401ECAEB0300B37D8B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		457CCA421ECAF2F800B37D8B /* ColorConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorConstants.swift; sourceTree = "<group>"; };
+		457CCA821ECB175200B37D8B /* MyInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyInfoViewController.swift; sourceTree = "<group>"; };
+		45BD76101ECD53FF0059A30A /* Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		45BD76121ECD55C30059A30A /* ModelManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		45BD76171ECD665F0059A30A /* personalContact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = personalContact.swift; sourceTree = "<group>"; };
+		45BD76191ECD7CE60059A30A /* CatagoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatagoriesTableViewCell.swift; sourceTree = "<group>"; };
+		45BD761B1ECDB4E30059A30A /* NiceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NiceButton.swift; sourceTree = "<group>"; };
+		45BD761D1ECDB83A0059A30A /* MyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCell.xib; sourceTree = "<group>"; };
+		45BD761F1ECDB8680059A30A /* MyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCell.swift; sourceTree = "<group>"; };
+		45BF74A81ECAD80C0093CFF4 /* QRCodeGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BF74AB1ECAD80D0093CFF4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		45BF74B01ECAD80D0093CFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45BF74B21ECAD80D0093CFF4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45BF74B51ECAD80D0093CFF4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45BF74B71ECAD80D0093CFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BF74BC1ECAD80D0093CFF4 /* QRCodeGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BF74C01ECAD80D0093CFF4 /* QRCodeGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGeneratorTests.swift; sourceTree = "<group>"; };
+		45BF74C21ECAD80D0093CFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BF74C71ECAD80D0093CFF4 /* QRCodeGeneratorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeGeneratorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45BF74CB1ECAD80D0093CFF4 /* QRCodeGeneratorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGeneratorUITests.swift; sourceTree = "<group>"; };
+		45BF74CD1ECAD80D0093CFF4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45CF3B191ED31F3900195F12 /* createMedicalInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createMedicalInfoViewController.swift; sourceTree = "<group>"; };
+		45D2AE491ECC17DD006176A8 /* CreateInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateInfoViewController.swift; sourceTree = "<group>"; };
+		45D2AE4C1ECC1814006176A8 /* CatagoriesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatagoriesViewController.swift; sourceTree = "<group>"; };
+		45D2AE4F1ECC183C006176A8 /* CreateUserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateUserInfoViewController.swift; sourceTree = "<group>"; };
+		45E0914D1ED2FEE400E7064B /* createVehicleInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createVehicleInfoViewController.swift; sourceTree = "<group>"; };
+		45E740981ED2AE6900875D34 /* Edit_CatagoriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Edit_CatagoriesTableViewCell.swift; sourceTree = "<group>"; };
+		45E7409B1ED2B34900875D34 /* ContactInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfoViewController.swift; sourceTree = "<group>"; };
+		45E7409D1ED2C24B00875D34 /* ContactInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfoTableViewCell.swift; sourceTree = "<group>"; };
+		45E8803A1ED583A5006DAE21 /* MotorVehicleInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MotorVehicleInfoViewController.swift; sourceTree = "<group>"; };
+		45E8803D1ED59388006DAE21 /* CreateEmploymentInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateEmploymentInfoViewController.swift; sourceTree = "<group>"; };
+		45E880401ED593B7006DAE21 /* EmploymentInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmploymentInfoViewController.swift; sourceTree = "<group>"; };
+		45E880421ED5A632006DAE21 /* MoveKeyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoveKeyboard.swift; sourceTree = "<group>"; };
+		45EA904D1ED465B20055E2AF /* MedicalInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MedicalInfoViewController.swift; sourceTree = "<group>"; };
+		45FEF3D91ED7FCF1002502F6 /* FamilyMemberTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FamilyMemberTableViewCell.swift; sourceTree = "<group>"; };
+		45FEF3DC1ED84637002502F6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		45FEF3DF1ED847FE002502F6 /* MenuListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuListViewController.swift; sourceTree = "<group>"; };
+		45FEF3E11ED84A81002502F6 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		7586D8BED2864CF6281B5C2A /* Pods-QRCodeGenerator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeGenerator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QRCodeGenerator/Pods-QRCodeGenerator.debug.xcconfig"; sourceTree = "<group>"; };
+		BAFACFB036CC744BFDB5EA1C /* Pods-QRCodeGenerator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeGenerator.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRCodeGenerator/Pods-QRCodeGenerator.release.xcconfig"; sourceTree = "<group>"; };
+		FF97E700D7BC151561FAB910 /* Pods_QRCodeGenerator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCodeGenerator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45BF74A51ECAD80C0093CFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4553FEF01EE67C12003C2B0A /* LocalAuthentication.framework in Frameworks */,
+				456A06041ECC899F00CE94D6 /* libsqlite3.0.tbd in Frameworks */,
+				BA4E43796B053C43AA821BAF /* Pods_QRCodeGenerator.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF74B91ECAD80D0093CFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF74C41ECAD80D0093CFF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4539A7A11EF8FD52008FD1C4 /* LockViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4539A7A21EF8FD71008FD1C4 /* LockViewController.swift */,
+			);
+			name = LockViewController;
+			sourceTree = "<group>";
+		};
+		4539A7A41EF8FE39008FD1C4 /* CreatePasswordLockViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4539A7A51EF8FE5A008FD1C4 /* CreatePasswordLockViewController.swift */,
+			);
+			name = CreatePasswordLockViewController;
+			sourceTree = "<group>";
+		};
+		4539A7A71EF90C64008FD1C4 /* CodeInputView */ = {
+			isa = PBXGroup;
+			children = (
+				4539A7A81EF90C76008FD1C4 /* CodeInputView.swift */,
+			);
+			name = CodeInputView;
+			sourceTree = "<group>";
+		};
+		455287A01EF4FC8800C8C0B1 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				455287A11EF4FCCE00C8C0B1 /* MBProgressHUD.h */,
+				455287A21EF4FCCE00C8C0B1 /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		4553FEE91EE67B2E003C2B0A /* PITouchIDManager */ = {
+			isa = PBXGroup;
+			children = (
+				4553FEEA1EE67BB7003C2B0A /* PITouchIDManager.h */,
+				4553FEEB1EE67BB7003C2B0A /* PITouchIDManager.m */,
+				4553FEEC1EE67BB7003C2B0A /* PITouchIDManager.swift */,
+			);
+			name = PITouchIDManager;
+			sourceTree = "<group>";
+		};
+		456A05F61ECC893D00CE94D6 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				456A05F81ECC896100CE94D6 /* FMDatabase.h */,
+				456A05F91ECC896100CE94D6 /* FMDatabase.m */,
+				456A05FA1ECC896100CE94D6 /* FMDatabaseAdditions.h */,
+				456A05FB1ECC896100CE94D6 /* FMDatabaseAdditions.m */,
+				456A05FC1ECC896100CE94D6 /* fmdb.txt */,
+				456A05FD1ECC896100CE94D6 /* FMResultSet.h */,
+				456A05FE1ECC896100CE94D6 /* FMResultSet.m */,
+			);
+			name = FMDB;
+			sourceTree = "<group>";
+		};
+		457CCA3D1ECAEA1800B37D8B /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				457CCA3E1ECAEA7300B37D8B /* HomeViewController.swift */,
+			);
+			name = HomeViewController;
+			sourceTree = "<group>";
+		};
+		457CCA811ECB173800B37D8B /* MyInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				457CCA821ECB175200B37D8B /* MyInfoViewController.swift */,
+			);
+			name = MyInfoViewController;
+			sourceTree = "<group>";
+		};
+		45BF749F1ECAD80C0093CFF4 = {
+			isa = PBXGroup;
+			children = (
+				45BF74AA1ECAD80D0093CFF4 /* QRCodeGenerator */,
+				45BF74BF1ECAD80D0093CFF4 /* QRCodeGeneratorTests */,
+				45BF74CA1ECAD80D0093CFF4 /* QRCodeGeneratorUITests */,
+				45BF74A91ECAD80C0093CFF4 /* Products */,
+				809FEF6A3B3BF0F48952DBC9 /* Pods */,
+				82B7110DEBEC9686D802A7D8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		45BF74A91ECAD80C0093CFF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45BF74A81ECAD80C0093CFF4 /* QRCodeGenerator.app */,
+				45BF74BC1ECAD80D0093CFF4 /* QRCodeGeneratorTests.xctest */,
+				45BF74C71ECAD80D0093CFF4 /* QRCodeGeneratorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45BF74AA1ECAD80D0093CFF4 /* QRCodeGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				4539A7611EF8ECBD008FD1C4 /* QRCodeGenerator.entitlements */,
+				4524F4C31EEBB3A700144BDE /* QRCODE.db */,
+				456A05F71ECC896000CE94D6 /* QRCodeGenerator-Bridging-Header.h */,
+				456A06031ECC899F00CE94D6 /* libsqlite3.0.tbd */,
+				45D2AE471ECC16C2006176A8 /* Classes */,
+				45D2AE461ECC164B006176A8 /* Resources */,
+				45D2AE451ECC1612006176A8 /* Model */,
+				45D2AE441ECC15F8006176A8 /* CustomCell */,
+				45D2AE431ECC15EF006176A8 /* Assets */,
+				45D2AE421ECC15E3006176A8 /* 3rdParties */,
+				45D2AE411ECC15BD006176A8 /* Screens */,
+				45BF74B21ECAD80D0093CFF4 /* Assets.xcassets */,
+				45BF74B71ECAD80D0093CFF4 /* Info.plist */,
+			);
+			path = QRCodeGenerator;
+			sourceTree = "<group>";
+		};
+		45BF74BF1ECAD80D0093CFF4 /* QRCodeGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				45BF74C01ECAD80D0093CFF4 /* QRCodeGeneratorTests.swift */,
+				45BF74C21ECAD80D0093CFF4 /* Info.plist */,
+			);
+			path = QRCodeGeneratorTests;
+			sourceTree = "<group>";
+		};
+		45BF74CA1ECAD80D0093CFF4 /* QRCodeGeneratorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45BF74CB1ECAD80D0093CFF4 /* QRCodeGeneratorUITests.swift */,
+				45BF74CD1ECAD80D0093CFF4 /* Info.plist */,
+			);
+			path = QRCodeGeneratorUITests;
+			sourceTree = "<group>";
+		};
+		45CF3B181ED31F1000195F12 /* CreateMedicalInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45CF3B191ED31F3900195F12 /* createMedicalInfoViewController.swift */,
+			);
+			name = CreateMedicalInfoViewController;
+			sourceTree = "<group>";
+		};
+		45D2AE411ECC15BD006176A8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4539A7A41EF8FE39008FD1C4 /* CreatePasswordLockViewController */,
+				4539A7A11EF8FD52008FD1C4 /* LockViewController */,
+				45FEF3DE1ED847E7002502F6 /* MenuListViewController */,
+				45FEF3DB1ED84614002502F6 /* MainViewController */,
+				45E8803F1ED5939B006DAE21 /* EmploymentInfoViewController */,
+				45E8803C1ED59359006DAE21 /* CreateEmploymentInfoViewController */,
+				45E880391ED58370006DAE21 /* MotorVehicleInfoViewController */,
+				45EA904C1ED465850055E2AF /* MedicalInfoViewController */,
+				45CF3B181ED31F1000195F12 /* CreateMedicalInfoViewController */,
+				45E0914C1ED2FEAB00E7064B /* createVehicleInfiViewController */,
+				45E7409A1ED2B32700875D34 /* ContactInfoViewController */,
+				45D2AE4E1ECC1820006176A8 /* CreateUsetInfoViewController */,
+				45D2AE4B1ECC17E9006176A8 /* CatagoriesViewController */,
+				45D2AE481ECC174D006176A8 /* CreateInfoViewcontroller */,
+				457CCA3D1ECAEA1800B37D8B /* HomeViewController */,
+				457CCA811ECB173800B37D8B /* MyInfoViewController */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		45D2AE421ECC15E3006176A8 /* 3rdParties */ = {
+			isa = PBXGroup;
+			children = (
+				4539A7A71EF90C64008FD1C4 /* CodeInputView */,
+				455287A01EF4FC8800C8C0B1 /* MBProgressHUD */,
+				4553FEE91EE67B2E003C2B0A /* PITouchIDManager */,
+				456A05F61ECC893D00CE94D6 /* FMDB */,
+			);
+			name = 3rdParties;
+			sourceTree = "<group>";
+		};
+		45D2AE431ECC15EF006176A8 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				457CCA401ECAEB0300B37D8B /* Default.png */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		45D2AE441ECC15F8006176A8 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				45BD76191ECD7CE60059A30A /* CatagoriesTableViewCell.swift */,
+				45E740981ED2AE6900875D34 /* Edit_CatagoriesTableViewCell.swift */,
+				45E7409D1ED2C24B00875D34 /* ContactInfoTableViewCell.swift */,
+				45FEF3D91ED7FCF1002502F6 /* FamilyMemberTableViewCell.swift */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		45D2AE451ECC1612006176A8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45BD76101ECD53FF0059A30A /* Util.swift */,
+				45BD76121ECD55C30059A30A /* ModelManager.swift */,
+				45BD76171ECD665F0059A30A /* personalContact.swift */,
+				455E629D1ECF309A00ECDC14 /* MotorVehicleInfo.swift */,
+				455E629F1ECF30B700ECDC14 /* MedicalInfo.swift */,
+				455E62A11ECF30CE00ECDC14 /* EmploymentInfo.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		45D2AE461ECC164B006176A8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				45BF74AF1ECAD80D0093CFF4 /* Main.storyboard */,
+				45BF74B41ECAD80D0093CFF4 /* LaunchScreen.storyboard */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		45D2AE471ECC16C2006176A8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				457CCA421ECAF2F800B37D8B /* ColorConstants.swift */,
+				45BF74AB1ECAD80D0093CFF4 /* AppDelegate.swift */,
+				45BD761B1ECDB4E30059A30A /* NiceButton.swift */,
+				45E880421ED5A632006DAE21 /* MoveKeyboard.swift */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		45D2AE481ECC174D006176A8 /* CreateInfoViewcontroller */ = {
+			isa = PBXGroup;
+			children = (
+				45D2AE491ECC17DD006176A8 /* CreateInfoViewController.swift */,
+			);
+			name = CreateInfoViewcontroller;
+			sourceTree = "<group>";
+		};
+		45D2AE4B1ECC17E9006176A8 /* CatagoriesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45D2AE4C1ECC1814006176A8 /* CatagoriesViewController.swift */,
+			);
+			name = CatagoriesViewController;
+			sourceTree = "<group>";
+		};
+		45D2AE4E1ECC1820006176A8 /* CreateUsetInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45BD761D1ECDB83A0059A30A /* MyCell.xib */,
+				45BD761F1ECDB8680059A30A /* MyCell.swift */,
+				45D2AE4F1ECC183C006176A8 /* CreateUserInfoViewController.swift */,
+			);
+			name = CreateUsetInfoViewController;
+			sourceTree = "<group>";
+		};
+		45E0914C1ED2FEAB00E7064B /* createVehicleInfiViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45E0914D1ED2FEE400E7064B /* createVehicleInfoViewController.swift */,
+			);
+			name = createVehicleInfiViewController;
+			sourceTree = "<group>";
+		};
+		45E7409A1ED2B32700875D34 /* ContactInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45E7409B1ED2B34900875D34 /* ContactInfoViewController.swift */,
+			);
+			name = ContactInfoViewController;
+			sourceTree = "<group>";
+		};
+		45E880391ED58370006DAE21 /* MotorVehicleInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45E8803A1ED583A5006DAE21 /* MotorVehicleInfoViewController.swift */,
+			);
+			name = MotorVehicleInfoViewController;
+			sourceTree = "<group>";
+		};
+		45E8803C1ED59359006DAE21 /* CreateEmploymentInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45E8803D1ED59388006DAE21 /* CreateEmploymentInfoViewController.swift */,
+			);
+			name = CreateEmploymentInfoViewController;
+			sourceTree = "<group>";
+		};
+		45E8803F1ED5939B006DAE21 /* EmploymentInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45E880401ED593B7006DAE21 /* EmploymentInfoViewController.swift */,
+			);
+			name = EmploymentInfoViewController;
+			sourceTree = "<group>";
+		};
+		45EA904C1ED465850055E2AF /* MedicalInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45EA904D1ED465B20055E2AF /* MedicalInfoViewController.swift */,
+			);
+			name = MedicalInfoViewController;
+			sourceTree = "<group>";
+		};
+		45FEF3DB1ED84614002502F6 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45FEF3DC1ED84637002502F6 /* MainViewController.swift */,
+			);
+			name = MainViewController;
+			sourceTree = "<group>";
+		};
+		45FEF3DE1ED847E7002502F6 /* MenuListViewController */ = {
+			isa = PBXGroup;
+			children = (
+				45FEF3DF1ED847FE002502F6 /* MenuListViewController.swift */,
+				45FEF3E11ED84A81002502F6 /* MenuTableViewCell.swift */,
+			);
+			name = MenuListViewController;
+			sourceTree = "<group>";
+		};
+		809FEF6A3B3BF0F48952DBC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7586D8BED2864CF6281B5C2A /* Pods-QRCodeGenerator.debug.xcconfig */,
+				BAFACFB036CC744BFDB5EA1C /* Pods-QRCodeGenerator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		82B7110DEBEC9686D802A7D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4553FEEF1EE67C12003C2B0A /* LocalAuthentication.framework */,
+				FF97E700D7BC151561FAB910 /* Pods_QRCodeGenerator.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45BF74A71ECAD80C0093CFF4 /* QRCodeGenerator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BF74D01ECAD80D0093CFF4 /* Build configuration list for PBXNativeTarget "QRCodeGenerator" */;
+			buildPhases = (
+				07C193C6D91DC3BAC6BFF20B /* [CP] Check Pods Manifest.lock */,
+				45BF74A41ECAD80C0093CFF4 /* Sources */,
+				45BF74A51ECAD80C0093CFF4 /* Frameworks */,
+				45BF74A61ECAD80C0093CFF4 /* Resources */,
+				28316F233B5893F590C317A8 /* [CP] Embed Pods Frameworks */,
+				F7DB174D1FBA14781CAC5C31 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCodeGenerator;
+			productName = QRCodeGenerator;
+			productReference = 45BF74A81ECAD80C0093CFF4 /* QRCodeGenerator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45BF74BB1ECAD80D0093CFF4 /* QRCodeGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BF74D31ECAD80D0093CFF4 /* Build configuration list for PBXNativeTarget "QRCodeGeneratorTests" */;
+			buildPhases = (
+				45BF74B81ECAD80D0093CFF4 /* Sources */,
+				45BF74B91ECAD80D0093CFF4 /* Frameworks */,
+				45BF74BA1ECAD80D0093CFF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45BF74BE1ECAD80D0093CFF4 /* PBXTargetDependency */,
+			);
+			name = QRCodeGeneratorTests;
+			productName = QRCodeGeneratorTests;
+			productReference = 45BF74BC1ECAD80D0093CFF4 /* QRCodeGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45BF74C61ECAD80D0093CFF4 /* QRCodeGeneratorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45BF74D61ECAD80D0093CFF4 /* Build configuration list for PBXNativeTarget "QRCodeGeneratorUITests" */;
+			buildPhases = (
+				45BF74C31ECAD80D0093CFF4 /* Sources */,
+				45BF74C41ECAD80D0093CFF4 /* Frameworks */,
+				45BF74C51ECAD80D0093CFF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45BF74C91ECAD80D0093CFF4 /* PBXTargetDependency */,
+			);
+			name = QRCodeGeneratorUITests;
+			productName = QRCodeGeneratorUITests;
+			productReference = 45BF74C71ECAD80D0093CFF4 /* QRCodeGeneratorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45BF74A01ECAD80C0093CFF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dalmet-03";
+				TargetAttributes = {
+					45BF74A71ECAD80C0093CFF4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SBSXLEH428;
+						LastSwiftMigration = 0820;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					45BF74BB1ECAD80D0093CFF4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SBSXLEH428;
+						LastSwiftMigration = 0820;
+						TestTargetID = 45BF74A71ECAD80C0093CFF4;
+					};
+					45BF74C61ECAD80D0093CFF4 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = SBSXLEH428;
+						LastSwiftMigration = 0820;
+						TestTargetID = 45BF74A71ECAD80C0093CFF4;
+					};
+				};
+			};
+			buildConfigurationList = 45BF74A31ECAD80C0093CFF4 /* Build configuration list for PBXProject "QRCodeGenerator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45BF749F1ECAD80C0093CFF4;
+			productRefGroup = 45BF74A91ECAD80C0093CFF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45BF74A71ECAD80C0093CFF4 /* QRCodeGenerator */,
+				45BF74BB1ECAD80D0093CFF4 /* QRCodeGeneratorTests */,
+				45BF74C61ECAD80D0093CFF4 /* QRCodeGeneratorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45BF74A61ECAD80C0093CFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BF74B61ECAD80D0093CFF4 /* LaunchScreen.storyboard in Resources */,
+				45BF74B31ECAD80D0093CFF4 /* Assets.xcassets in Resources */,
+				45BF74B11ECAD80D0093CFF4 /* Main.storyboard in Resources */,
+				4524F4C41EEBB3A700144BDE /* QRCODE.db in Resources */,
+				45BD761E1ECDB83A0059A30A /* MyCell.xib in Resources */,
+				457CCA411ECAEB0300B37D8B /* Default.png in Resources */,
+				456A06011ECC896100CE94D6 /* fmdb.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF74BA1ECAD80D0093CFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF74C51ECAD80D0093CFF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07C193C6D91DC3BAC6BFF20B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		28316F233B5893F590C317A8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRCodeGenerator/Pods-QRCodeGenerator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7DB174D1FBA14781CAC5C31 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QRCodeGenerator/Pods-QRCodeGenerator-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45BF74A41ECAD80C0093CFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BD76201ECDB8680059A30A /* MyCell.swift in Sources */,
+				45BD761C1ECDB4E30059A30A /* NiceButton.swift in Sources */,
+				45CF3B1A1ED31F3900195F12 /* createMedicalInfoViewController.swift in Sources */,
+				4539A7A31EF8FD71008FD1C4 /* LockViewController.swift in Sources */,
+				45FEF3E01ED847FE002502F6 /* MenuListViewController.swift in Sources */,
+				45E0914E1ED2FEE400E7064B /* createVehicleInfoViewController.swift in Sources */,
+				45BD76181ECD665F0059A30A /* personalContact.swift in Sources */,
+				45FEF3DA1ED7FCF2002502F6 /* FamilyMemberTableViewCell.swift in Sources */,
+				4553FEED1EE67BB7003C2B0A /* PITouchIDManager.m in Sources */,
+				45E7409C1ED2B34900875D34 /* ContactInfoViewController.swift in Sources */,
+				45D2AE4A1ECC17DD006176A8 /* CreateInfoViewController.swift in Sources */,
+				45BD76131ECD55C30059A30A /* ModelManager.swift in Sources */,
+				4539A7A91EF90C76008FD1C4 /* CodeInputView.swift in Sources */,
+				4539A7A61EF8FE5A008FD1C4 /* CreatePasswordLockViewController.swift in Sources */,
+				45E8803E1ED59388006DAE21 /* CreateEmploymentInfoViewController.swift in Sources */,
+				455E62A21ECF30CE00ECDC14 /* EmploymentInfo.swift in Sources */,
+				45FEF3DD1ED84637002502F6 /* MainViewController.swift in Sources */,
+				45EA904E1ED465B20055E2AF /* MedicalInfoViewController.swift in Sources */,
+				457CCA831ECB175200B37D8B /* MyInfoViewController.swift in Sources */,
+				45BF74AC1ECAD80D0093CFF4 /* AppDelegate.swift in Sources */,
+				455E629E1ECF309A00ECDC14 /* MotorVehicleInfo.swift in Sources */,
+				4553FEEE1EE67BB7003C2B0A /* PITouchIDManager.swift in Sources */,
+				456A06021ECC896100CE94D6 /* FMResultSet.m in Sources */,
+				45E8803B1ED583A5006DAE21 /* MotorVehicleInfoViewController.swift in Sources */,
+				457CCA431ECAF2F800B37D8B /* ColorConstants.swift in Sources */,
+				45D2AE501ECC183C006176A8 /* CreateUserInfoViewController.swift in Sources */,
+				45E880431ED5A632006DAE21 /* MoveKeyboard.swift in Sources */,
+				457CCA3F1ECAEA7300B37D8B /* HomeViewController.swift in Sources */,
+				45BD761A1ECD7CE60059A30A /* CatagoriesTableViewCell.swift in Sources */,
+				456A05FF1ECC896100CE94D6 /* FMDatabase.m in Sources */,
+				45BD76111ECD53FF0059A30A /* Util.swift in Sources */,
+				45E740991ED2AE6900875D34 /* Edit_CatagoriesTableViewCell.swift in Sources */,
+				45E880411ED593B7006DAE21 /* EmploymentInfoViewController.swift in Sources */,
+				45FEF3E21ED84A81002502F6 /* MenuTableViewCell.swift in Sources */,
+				455287A31EF4FCCE00C8C0B1 /* MBProgressHUD.m in Sources */,
+				45E7409E1ED2C24B00875D34 /* ContactInfoTableViewCell.swift in Sources */,
+				455E62A01ECF30B700ECDC14 /* MedicalInfo.swift in Sources */,
+				45D2AE4D1ECC1814006176A8 /* CatagoriesViewController.swift in Sources */,
+				456A06001ECC896100CE94D6 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF74B81ECAD80D0093CFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BF74C11ECAD80D0093CFF4 /* QRCodeGeneratorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45BF74C31ECAD80D0093CFF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BF74CC1ECAD80D0093CFF4 /* QRCodeGeneratorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45BF74BE1ECAD80D0093CFF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45BF74A71ECAD80C0093CFF4 /* QRCodeGenerator */;
+			targetProxy = 45BF74BD1ECAD80D0093CFF4 /* PBXContainerItemProxy */;
+		};
+		45BF74C91ECAD80D0093CFF4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45BF74A71ECAD80C0093CFF4 /* QRCodeGenerator */;
+			targetProxy = 45BF74C81ECAD80D0093CFF4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45BF74AF1ECAD80D0093CFF4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45BF74B01ECAD80D0093CFF4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45BF74B41ECAD80D0093CFF4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45BF74B51ECAD80D0093CFF4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45BF74CE1ECAD80D0093CFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		45BF74CF1ECAD80D0093CFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45BF74D11ECAD80D0093CFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7586D8BED2864CF6281B5C2A /* Pods-QRCodeGenerator.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QRCodeGenerator/QRCodeGenerator.entitlements;
+				INFOPLIST_FILE = QRCodeGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dalmettech.com.QRCodeGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./QRCodeGenerator/QRCodeGenerator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		45BF74D21ECAD80D0093CFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BAFACFB036CC744BFDB5EA1C /* Pods-QRCodeGenerator.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = QRCodeGenerator/QRCodeGenerator.entitlements;
+				INFOPLIST_FILE = QRCodeGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dalmettech.com.QRCodeGenerator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./QRCodeGenerator/QRCodeGenerator-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		45BF74D41ECAD80D0093CFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QRCodeGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dalmettech.com.QRCodeGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeGenerator.app/QRCodeGenerator";
+			};
+			name = Debug;
+		};
+		45BF74D51ECAD80D0093CFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QRCodeGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dalmettech.com.QRCodeGeneratorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeGenerator.app/QRCodeGenerator";
+			};
+			name = Release;
+		};
+		45BF74D71ECAD80D0093CFF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QRCodeGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dalmettech.com.QRCodeGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QRCodeGenerator;
+			};
+			name = Debug;
+		};
+		45BF74D81ECAD80D0093CFF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QRCodeGeneratorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dalmettech.com.QRCodeGeneratorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QRCodeGenerator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45BF74A31ECAD80C0093CFF4 /* Build configuration list for PBXProject "QRCodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BF74CE1ECAD80D0093CFF4 /* Debug */,
+				45BF74CF1ECAD80D0093CFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BF74D01ECAD80D0093CFF4 /* Build configuration list for PBXNativeTarget "QRCodeGenerator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BF74D11ECAD80D0093CFF4 /* Debug */,
+				45BF74D21ECAD80D0093CFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BF74D31ECAD80D0093CFF4 /* Build configuration list for PBXNativeTarget "QRCodeGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BF74D41ECAD80D0093CFF4 /* Debug */,
+				45BF74D51ECAD80D0093CFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45BF74D61ECAD80D0093CFF4 /* Build configuration list for PBXNativeTarget "QRCodeGeneratorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45BF74D71ECAD80D0093CFF4 /* Debug */,
+				45BF74D81ECAD80D0093CFF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45BF74A01ECAD80C0093CFF4 /* Project object */;
+}
